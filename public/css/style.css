@@ -15,5 +15,57 @@
     height: 100px;
     border: 1px black solid;
     margin-left: 10%;
+    }
+#tot2{
+    display: flex;
+    justify-content: center;
+}
+#c1{
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    color: white;
+    transition-duration:1s;
+    margin-left: 10px;
     
+}
+#c2{
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    color: white;
+    transition-duration:1s;
+    margin-left: 10px;
+}
+#c3{
+    
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    color: white;
+    transition-duration:1s;
+    margin-left: 10px;
+    
+    
+}
+#c3:hover{
+    rotate: 3.1416rad;
+}
+#c1:hover{ 
+    rotate: x 90deg;
+}
+#c2:hover{
+   rotate: y 90deg;
 }

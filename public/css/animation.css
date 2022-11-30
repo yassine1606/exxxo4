@@ -1,5 +1,5 @@
 #carré{
-    animation: carré 5s infinite;
+    animation: carré 5s infinite alternate;
 }
 #ligne{
     animation: ligne 5s infinite alternate ;
