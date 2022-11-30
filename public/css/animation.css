@@ -1,0 +1,28 @@
+#carré{
+    animation: carré 5s infinite;
+}
+#ligne{
+    animation: ligne 5s infinite alternate ;
+    position: relative;
+}
+@keyframes ligne{
+0%{
+    top:15px}
+50%{
+    top:40px}
+100%{
+    top:60px;
+}
+}
+
+@keyframes carré{
+    0%{
+        top:15px;background-color:blue;
+    }
+    50%{
+        top:40px;background-color:orange}
+
+    100%{
+        top:60px;background-color: red;
+    }
+}

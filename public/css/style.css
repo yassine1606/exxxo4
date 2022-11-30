@@ -1,0 +1,19 @@
+#total{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+}
+#ligne{
+    width: 150px;
+    height: 20px;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+#carré{
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    margin-left: 10%;
+    
+}
